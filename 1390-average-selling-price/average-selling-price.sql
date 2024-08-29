@@ -1,4 +1,7 @@
--- Write your PostgreSQL query statement below
+-- My solution: I kept it as simple as it is,
+-- augment the query til I get the right answer
+-- (LEFT JOIN --> GROUP BY --> AGGREGATION --> ROUNDING --> COALESCE)
+-- 201ms
 SELECT 
     p.product_id,
     COALESCE(
