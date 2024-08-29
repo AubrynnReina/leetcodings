@@ -31,6 +31,7 @@
 -- This one doesn't even need a window function
 -- Now I'm mad =='
 -- It used CTE tho :o
+
 WITH last_6_days AS (
     SELECT DISTINCT visited_on
     FROM customer
