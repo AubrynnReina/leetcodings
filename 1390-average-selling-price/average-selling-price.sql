@@ -1,7 +1,7 @@
 -- My solution: I kept it as simple as it is,
 -- augment the query til I get the right answer
 -- (LEFT JOIN --> GROUP BY --> AGGREGATION --> ROUNDING --> COALESCE)
--- 201ms
+-- 192ms - 95.72%
 SELECT 
     p.product_id,
     COALESCE(
