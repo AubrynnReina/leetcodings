@@ -20,7 +20,7 @@
 -- GROUP BY month, country
 
 -- Another solution (Used FILTER and COALESCE)
-
+-- This solution is really fast (450ms compare to 750ms of mine)
 SELECT
     TO_CHAR(trans_date, 'YYYY-MM') AS "month",
     -- month is a keyword, should be in quotes for clarity
